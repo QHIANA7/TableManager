@@ -102,7 +102,7 @@ void day_input()
 
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 3);
 	printf("[SYSTEM] 현재 날짜 : %s\n", day);
-	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 0);
 }
 
 void print_menu()
